@@ -8,7 +8,7 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "build-for-pages": "rm -rf docs && ng build --prod --outputPath docs"
+    "build-for-pages": "rm -rf docs && ng build --prod --baseHref=Geolocation --outputPath docs"
   },
   "private": true,
   "dependencies": {
